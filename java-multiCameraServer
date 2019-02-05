@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+APP_NAME="java-multiCameraServer-all"
+export LD_LIBRARY_PATH=./lib/linux/x86-64/shared
+APP_BASE_NAME=`basename "$0"`
+export CLASSPATH=$APP_HOME/build/libs/java-multiCameraServer-all.jar:$APP_HOME/lib/gson-2.8.5.jar:$APP_HOME/wpiutil.jar:$APP_HOME/ntcore.jar:$APP_HOME/cscore.jar:$APP_HOME/cameraserver.jar:$APP_HOME/opencv-344.jar:$APP_HOME/wpilibj.jar:$APP_HOME/wpiHal.jar
+java -jar build/libs/java-multiCameraServer-all.jar ./frc.json

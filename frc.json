@@ -1,0 +1,25 @@
+{
+    "cameras": [
+        {
+            "fps": 30,
+            "height": 120,
+            "name": "rPi Camera 0",
+            "path": "/dev/video0",
+            "pixel format": "mjpeg",
+            "stream": {
+                "properties": []
+            },
+            "width": 160
+        },
+        {
+            "name": "Webcam",
+            "path": "",
+            "pixel format": null,
+            "stream": {
+                "properties": []
+            }
+        }
+    ],
+    "ntmode": "server",
+    "team": 3729
+}
